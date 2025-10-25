@@ -103,11 +103,11 @@ sequenceDiagram
 flowchart LR
     subgraph Client
       SUI[Streamlit UI]
-      Mobile[Mobile App (future)]
+      Mobile[Mobile App]
     end
 
     subgraph Server
-      API[FastAPI /ingest,/search]
+      API[FastAPI API]
       Store[MemoryStore\nFAISS + SQLite]
     end
 
