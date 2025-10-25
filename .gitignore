@@ -1,0 +1,39 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data and artifacts
+/data/
+*.db
+*.sqlite3
+*.faiss
+
+# Logs
+*.log
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# Uploads (ensure your app writes to data/ instead, but safe to ignore)
+*.wav
+*.mp3
+*.m4a
+*.png
+*.jpg
+*.jpeg
+
+# Env files
+.env
+.env.*

@@ -1,0 +1,4 @@
+regex:xox[baprs]-[A-Za-z0-9-]+=>REDACTED
+regex:xapp-[A-Za-z0-9-]+=>REDACTED
+regex:SLACK_?BOT_?TOKEN\s*=\s*[^ \n\r]+=>SLACK_BOT_TOKEN=REDACTED
+regex:SLACK_?TOKEN\s*=\s*[^ \n\r]+=>SLACK_TOKEN=REDACTED
